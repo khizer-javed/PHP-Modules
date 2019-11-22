@@ -1,0 +1,321 @@
+.CustomEvent
+{
+	overflow: scroll;
+	background: url(images/wb.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	padding-left: 250px;
+}
+
+.mainhead
+{
+	font-size: 50px;
+	text-align: center;
+	background: url(images/headerBG.png);
+	padding-top: 31px;
+	padding-bottom: 32px;
+	color: #fada5e;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+
+.header
+{
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	background: #fada5e;
+	padding: 10px;
+}
+
+.data tr
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	border: none;
+}
+
+.data td.values
+{
+	text-align: center;
+	color: #fada5e;
+	text-shadow: 1px 1px 1px black;
+}
+
+.data td
+{
+	border: none;
+	background: white;
+	padding: 10px 8px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.PVSelector td
+{
+	background: white;
+	padding: 10px 8px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.data ,.PVSelector
+{
+	background: black;
+	width: 80%;
+	border: none;
+	margin: 20px auto;
+}
+
+.form
+{
+	width: 80%;
+	padding-bottom: 10px;
+	margin: 70px auto 50px auto;
+	background: #eff0f1;
+}
+
+.decisionA, .leaderCreate
+{
+	background: #fada5e;
+	border: none;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: 0.5s ease;
+}
+
+.decisionA, .decisionB
+{
+	width: 300px;
+}
+
+.leaderCreate, .leaderCancel
+{
+	width: 150px;
+}
+
+.decisionA:hover, .leaderCreate:hover
+{
+	background: #fcebaa;
+	cursor: pointer;
+}
+
+.decisionB, .leaderCancel
+{
+	background: black;
+	border: none;
+	color: #fada5e;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: 0.5s ease;
+}
+
+.decisionB:hover, .leaderCancel:hover
+{
+	background: grey;
+	cursor: pointer;
+}
+
+#btns
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.pvs
+{
+	padding: 0;
+	margin: 0;
+	border: 2px solid black;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.pvs th
+{
+	padding: 5px;
+	font-size: 15px;
+	background-color: #fada5e;
+}
+
+.pvs td
+{
+	font-size: 15px;
+	padding: 5px;
+}
+
+#background
+{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #fefefe;
+	opacity: 0.7;
+	z-index: 9999;
+}
+
+.PVSelector
+{
+	box-shadow: 1px 1px 2px black, 0 0 10px grey, 0 0 5px black;
+	text-align: center;
+}
+.dlg-content
+{
+	font-size: 15px;
+}
+
+.multiselect
+{
+	width: 100%;
+	text-align: center;
+}
+.selectbox
+{
+	position: relative;
+}
+.selectbox select
+{
+	text-align: center;
+	width: 100%;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.overselect
+{
+	position: absolute;
+	left: 0; right: 0; top: 0; bottom: 0;
+	transition: 0.5s ease;
+}
+.overselect:hover
+{
+	border: 2px solid #fada5e;
+}
+.checkboxes
+{
+	display: none;
+	border: 1px solid #dadada;
+	width: 100%;
+}
+.checkboxes label
+{
+	display: block;
+	padding: 5px;
+}
+.checkboxes input
+{
+	width: 50px;
+}
+
+.error, #captainError
+{
+	margin: 20px auto;
+	text-align: center;
+}
+.error span, #captainError span
+{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#selectLeader
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin-top: 15%;
+	margin-left: 40%;
+	margin-right: 25%;
+	padding-bottom: 20px;
+	text-align: center;
+	background: white;
+}
+
+#selectLeader h1
+{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	background: #fada5e;
+	padding: 10px;
+}
+
+#leaderoptions
+{
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#leaderNames
+{
+	text-align: center;
+	width: 100%;
+}
+
+#blurbackground
+{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('landingpagepic.jpg');
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+#leaderTable
+{
+	width: 50%;
+	border-collapse: collapse;
+	margin: 20px auto;
+}
+
+#leaderTable td
+{
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#leaderTable tr
+{
+	transition: 0.3s;
+}
+
+#leaderTable tr:hover
+{
+	background-color: #fada5e;
+	font-size: 25px;
+}
+
+#cost
+{
+	width: 80%;
+	border: none;
+	margin: 0px auto 20px auto;
+	background-color:black;
+}
+
+#cost td
+{
+	text-align: center;
+	background-color:white;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	border: none;
+	padding:10px;
+}

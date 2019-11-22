@@ -1,0 +1,268 @@
+.Packages
+{
+	text-align: center;
+	top: 0;
+	right: 0;
+	left:0;
+	bottom: 0;
+	position: absolute;
+	margin-top: 130px;
+	overflow-y: scroll;
+}
+
+form
+{
+	padding-top: 20px;
+	text-align: justify;
+	background: white;
+	width: 70%;
+	margin: 10px auto 5px auto;
+	border-radius: 20px;
+}
+
+table
+{
+	width: 50%;
+	margin: 0px auto;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-radius: 20px;
+}
+
+table td
+{
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.btn
+{
+	text-align: center;
+}
+
+#heading
+{
+	margin: 20px auto 0px auto;
+	width: 69%;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	font-size:50px;
+	font-weight: bolder;
+	background-color: #fada5e;
+	border-radius: 20px;
+}
+
+.Packages input[type="submit"]
+{
+	margin: 20px auto;
+	border-radius: 15px;
+	border: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	background: #fada5e;
+	padding: 10px;
+	width: 300px;
+}
+
+.Packages input[type="submit"]:hover
+{
+	background: #fcebaa;
+	cursor: pointer;
+}
+
+.Packages input[type="date"]
+{
+	padding: 10px;
+	width: 50%;
+}
+
+.Packages input[type="date"]:hover
+{
+	border: 1px solid #fada5e;
+}
+
+.Packages input[type="text"],input[type="number"],input[type="email"],input[type="time"],input[type="password"]
+{
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 15px;
+	text-align: center;
+	width: 50%;
+}
+
+.error
+{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#price
+{
+	color: green;
+	width: 50%;
+	font-size: 30px;
+}
+
+#mapBackground
+{
+	position:absolute;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/wb.jpg');
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+#mapOptions
+{
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#locationHeader 
+{
+	margin-top: 20px;
+	margin-bottom: 100px;
+	position:fixed;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#locErrorid
+{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 20px;
+}
+
+#locationError
+{
+	border: none;
+	background: none;
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+
+#locationHeader h1
+{
+	font-size: 80px;
+	color: #fada5e;
+}
+
+#mapOptions input
+{
+	margin-bottom: 60px;
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 20px;
+	background-color: #fada5e;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+#mapOptions input:hover
+{
+	background-color:#FCEBAA;
+}
+
+#map-search
+{
+	border-radius: 15px;
+}
+
+#map
+{
+	position:absolute;
+	width: 90%;
+	margin: 130px auto 130px auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+#search label {
+	padding: 20px 10px;
+	display: inline-block;
+	font-size: 30px;
+	color: #fada5e;
+	font-weight: bold;
+}
+
+#search input {
+	font-size: 20px;
+	padding: 10px;
+}
+
+#search 
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#hide
+{
+	display: none;
+}
+
+
+#blurbackground
+{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('landingpagepic.jpg');
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+#success
+{
+	border-radius: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-bottom: 10px;
+	text-align: center;
+	background: white;
+}
+
+#success p
+{
+	font-weight:bold;
+	margin-top: 20px;
+}
+
+#success h1
+{
+	border-radius: 20px 20px 0px 0px ;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	background: #fada5e;
+	padding: 10px;
+}

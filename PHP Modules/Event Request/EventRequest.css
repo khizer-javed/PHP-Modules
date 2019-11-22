@@ -1,0 +1,80 @@
+#eventlist
+{
+	overflow: scroll;
+	background: url(images/wb.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	padding-left: 250px;
+}
+
+#eventlist h1
+{
+	font-size: 50px;
+	text-align: center;
+	background: url(images/headerBG.png);
+	padding-top: 31px;
+	padding-bottom: 32px;
+	color: #fada5e;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+table th
+{
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	padding: 15px 30px 15px 30px;
+	margin-bottom: 10px;
+	background: #fada5e;
+}
+
+table td
+{
+	text-align: center;
+	font-size: 15px;
+	border: 1px solid #19212B;
+	padding: 5px 8px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.view
+{
+	width: 100%;
+	background: #fada5e;
+	border: none;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.view:hover
+{
+	background: #fcebaa;
+	cursor: pointer;
+}
+
+table tr:hover
+{
+	background-color: #282923;
+	color: white;
+}
+
+table tr
+{
+	background: white;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	transition: 0.4s ease;
+}
+
+table
+{
+	width: 90%;
+	margin: 20px auto 50px auto;
+	border: 1px solid #19212B;
+	border-collapse: collapse;
+}
